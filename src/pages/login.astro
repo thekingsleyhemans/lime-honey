@@ -1,0 +1,302 @@
+---
+const title = "Admin Login · Lime & Honey";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="login">
+      <div class="login__content">
+        <div class="login__brand">
+          <span>Lime &amp; Honey</span>
+        </div>
+
+        <header class="login__header">
+          <h1>Welcome back.</h1>
+          <p>Enter your password to access the admin.</p>
+        </header>
+
+        <form id="login-form" class="login__form">
+          <label for="password">Password</label>
+
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            placeholder="Enter password"
+            required
+          />
+
+          <button type="submit" class="login__button">
+            Login
+          </button>
+
+          <p id="error" class="login__error" hidden></p>
+        </form>
+      </div>
+    </main>
+
+    <script>
+      const form = document.querySelector("#login-form");
+      const passwordInput = document.querySelector("#password");
+      const error = document.querySelector("#error");
+
+      form?.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        if (!(passwordInput instanceof HTMLInputElement)) return;
+        if (!(error instanceof HTMLElement)) return;
+
+        error.hidden = true;
+
+        const button = form.querySelector(
+          'button[type="submit"]'
+        );
+
+        if (button instanceof HTMLButtonElement) {
+          button.disabled = true;
+          button.textContent = "Logging in...";
+        }
+
+        try {
+          const response = await fetch("/api/auth/login", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+            body: JSON.stringify({
+              password: passwordInput.value,
+            }),
+          });
+
+          const data = await response.json();
+
+          if (!response.ok) {
+            error.textContent = data.error || "Login failed.";
+            error.hidden = false;
+
+            if (button instanceof HTMLButtonElement) {
+              button.disabled = false;
+              button.textContent = "Login";
+            }
+
+            return;
+          }
+
+          window.location.href = "/admin";
+        } catch {
+          error.textContent =
+            "Something went wrong. Please try again.";
+
+          error.hidden = false;
+
+          if (button instanceof HTMLButtonElement) {
+            button.disabled = false;
+            button.textContent = "Login";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  :root {
+    --bg: #1c1a1a;
+    --accent: #eaa50c;
+    --accent-text: #1c1a1a;
+    --text: #f5f5f3;
+    --text-dim: #a8a5a1;
+    --border: #3a3636;
+    --radius-lg: 28px;
+    --radius-md: 14px;
+
+    --font-display: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+  }
+
+  .login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+  }
+
+  .login__content {
+    width: min(420px, 100%);
+  }
+
+  .login__brand {
+    text-align: center;
+    margin-bottom: 72px;
+  }
+
+  .login__brand span {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 0.02em;
+  }
+
+  .login__header {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+
+  .login__header h1 {
+    margin: 0 0 12px;
+
+    font-family: var(--font-display);
+    font-size: clamp(2.4rem, 8vw, 3.5rem);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+
+    color: var(--accent);
+  }
+
+  .login__header p {
+    margin: 0;
+
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .login__form label {
+    margin-bottom: 2px;
+
+    color: var(--text-dim);
+    font-size: 0.9rem;
+  }
+
+  .login__form input {
+    width: 100%;
+
+    background: #262323;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+
+    color: var(--text);
+
+    font-family: var(--font-body);
+    font-size: 1rem;
+
+    padding: 15px 16px;
+
+    outline: none;
+
+    transition:
+      border-color 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .login__form input::placeholder {
+    color: #6f6b68;
+  }
+
+  .login__form input:focus {
+    border-color: var(--accent);
+
+    box-shadow:
+      0 0 0 2px rgba(234, 165, 12, 0.12);
+  }
+
+  .login__button {
+    width: 100%;
+
+    margin-top: 8px;
+
+    border: none;
+    border-radius: 999px;
+
+    background: var(--accent);
+    color: var(--accent-text);
+
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 15px 24px;
+
+    cursor: pointer;
+
+    transition:
+      transform 180ms ease,
+      opacity 180ms ease;
+  }
+
+  .login__button:hover {
+    transform: translateY(-1px);
+  }
+
+  .login__button:active {
+    transform: translateY(0);
+  }
+
+  .login__button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+    transform: none;
+  }
+
+  .login__error {
+    margin: 10px 0 0;
+
+    color: #e2685a;
+
+    text-align: center;
+
+    font-size: 0.88rem;
+  }
+
+  @media (max-width: 480px) {
+    .login {
+      padding: 24px;
+    }
+
+    .login__brand {
+      margin-bottom: 56px;
+    }
+  }
+</style>

@@ -1,0 +1,993 @@
+---
+import "../styles/normalize.css";
+import "../styles/webflow.css";
+import "../styles/qh-limexhoney-0558b9c78e0aec338a0fcfad4.webflow.css";
+
+import projectData from "../data/projects.json";
+
+const projects = projectData.projects;
+---
+
+<html
+  data-wf-page="60f95ea04fce9a5a5a3c2063"
+  data-wf-site="60f95ea04fce9a608c3c204e"
+>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Projects</title>
+
+    <meta content="Projects" property="og:title">
+    <meta content="Projects" name="twitter:title">
+
+    <meta
+      content="width=device-width, initial-scale=1"
+      name="viewport"
+    >
+
+    <meta
+      content="kfkUnsY9QsOVRHRkFfV8qzENCWkoHzy9Wh8MX0MlluU"
+      name="google-site-verification"
+    >
+
+    <meta content="Webflow" name="generator">
+
+    <link
+      href="https://fonts.googleapis.com"
+      rel="preconnect"
+    >
+
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+    >
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <link
+      href="/images/favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    >
+
+    <link
+      href="/images/webclip.png"
+      rel="apple-touch-icon"
+    >
+
+    <style>
+      .no-scroll {
+        overflow: hidden;
+      }
+
+      .menu--link {
+        transition: text-shadow 0.3s ease-in-out;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      span {
+        min-height: 5px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      span {
+        min-height: auto !important;
+      }
+    </style>
+  </head>
+
+  <body class="body dark">
+
+    <!-- MENU -->
+    <div class="menu">
+      <div class="container">
+        <div class="menu-wrapper dark">
+
+          <a
+            data-w-id="2ced2b5f-b5ec-8f26-70c4-03c69b0072d6"
+            href="/"
+            class="brand dark w-inline-block"
+          ></a>
+
+          <div class="div-block-23">
+
+            <div class="dark-toggle dark"></div>
+
+            <div class="light-toggle dark"></div>
+
+            <a
+              data-w-id="2ced2b5f-b5ec-8f26-70c4-03c69b0072da"
+              href="#"
+              class="menu-button back w-inline-block"
+            >
+              <div class="menu-bar top dark"></div>
+              <div class="menu-bar bottom dark"></div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FULL MENU -->
+    <div class="menu-wrapper full light">
+
+      <div class="menu-content dark">
+
+        <div class="menu-fulls">
+
+          <div class="container">
+
+            <div class="menu-wrapper dark">
+
+              <a
+                href="/"
+                class="brand nav dark w-inline-block"
+              ></a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="container">
+
+          <div class="flex-container left">
+
+            <div class="div-block-59">
+
+              <h1
+                data-w-id="a201726a-f889-0cf4-a5ba-c19d9e0cee9e"
+                class="heading h1 menu-link light"
+              >
+                <a
+                  href="/services"
+                  class="menu-link dark"
+                >
+                  skillset
+                </a>
+              </h1>
+
+
+              <h1
+                data-w-id="a201726a-f889-0cf4-a5ba-c19d9e0ceea0"
+                class="heading h1 menu-link dark"
+              >
+                <a
+                  href="/projects"
+                  aria-current="page"
+                  class="menu-link dark w--current"
+                >
+                  juice
+                </a>
+              </h1>
+
+
+              <h1
+                data-w-id="a201726a-f889-0cf4-a5ba-c19d9e0ceea2"
+                class="heading h1 menu-link dark"
+              >
+                <a
+                  href="/about"
+                  class="menu-link dark"
+                >
+                  honeys
+                </a>
+              </h1>
+
+
+              <h1
+                data-w-id="a201726a-f889-0cf4-a5ba-c19d9e0cee9e"
+                class="heading h1 menu-link dark"
+              >
+                <a
+                  href="/contact"
+                  class="menu-link dark"
+                >
+                  contact
+                </a>
+              </h1>
+
+
+              <h1
+                data-w-id="a201726a-f889-0cf4-a5ba-c19d9e0ceea6"
+                class="heading h1 menu-link dark"
+              >
+                <a
+                  href="/store"
+                  class="menu-link dark"
+                >
+                  store
+                </a>
+              </h1>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="full-nav-img dark"></div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PROJECTS -->
+    <div class="section">
+
+      <div class="container">
+
+        <div class="flex-container center pl-40">
+
+          <div class="div-block-48">
+
+            <!-- PAGE HEADER -->
+            <div class="div-block-45">
+
+              <div class="div-block-47">
+
+                <h1 class="heading h1 title dark">
+                  Projects
+                </h1>
+
+                <div class="heading h5 subtext dark">
+                  Making lemonade so good you'd think it's an album
+                  <br>
+                </div>
+
+              </div>
+
+
+              <!-- FILTERS -->
+              <div class="div-block-46">
+
+                <a
+                  data-filter="all"
+                  href="#"
+                  class="link projects dark active"
+                >
+                  All
+                </a>
+
+                <a
+                  data-filter="strategy"
+                  href="#"
+                  class="link projects dark"
+                >
+                  Strategy
+                </a>
+
+                <a
+                  data-filter="branding"
+                  href="#"
+                  class="link projects dark"
+                >
+                  Branding
+                </a>
+
+                <a
+                  data-filter="digital"
+                  href="#"
+                  class="link projects dark"
+                >
+                  Digital
+                </a>
+
+                <a
+                  data-filter="animation"
+                  href="#"
+                  class="link projects last-link dark"
+                >
+                  Animation
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <!-- PROJECT LIST -->
+            <div class="tab content">
+
+              <div class="div-block-49">
+
+                <div class="w-dyn-list">
+
+                  <div
+                    role="list"
+                    class="collection-list-3 w-dyn-items"
+                  >
+
+                    {
+                      projects.map((project) => (
+
+                        <div
+                          role="listitem"
+                          class="collection-item w-dyn-item"
+                          data-project-categories={project.categories.join(" ")}
+                        >
+
+                          <div class="html-embed-2 w-embed">
+
+                            <div
+                              data-type={project.categories.join(" ")}
+                              class="div-block-50 no-top"
+                              style="opacity: 100; display: flex; margin-top: 0px;"
+                            >
+
+                              <a
+                                href={`/projects/${project.slug}`}
+                                class="project-box light w-inline-block"
+                              >
+
+                                <h2
+                                  class="heading h2 dark"
+                                  style="text-align:center;"
+                                >
+                                  {project.title}
+                                </h2>
+
+                                <h4
+                                  class="heading h4 dark"
+                                >
+                                  {project.categories
+                                    .map(
+                                      (category) =>
+                                        category.charAt(0).toUpperCase() +
+                                        category.slice(1)
+                                    )
+                                    .join(", ")}
+                                </h4>
+
+
+                                <!-- PROJECT THUMBNAIL -->
+                                <img
+                                  width="100vw"
+                                  src={project.thumbnail}
+                                  alt={project.title}
+                                  class="image-87"
+                                  loading="lazy"
+                                >
+
+                              </a>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                      ))
+                    }
+
+                  </div>
+
+
+                  <!-- EMPTY STATE -->
+                  <div
+                    class="w-dyn-empty"
+                    style="display: none;"
+                  >
+                    <div>
+                      No items found.
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="section-7">
+
+      <div class="footer-line-wrapper">
+        <div class="footer-line light"></div>
+      </div>
+
+
+      <div class="container">
+
+        <div class="flex-container no-t">
+
+
+          <!-- DESKTOP FOOTER -->
+          <div class="footer desktop">
+
+            <div class="div-block-19">
+
+              <p class="p fs-20 static dark">
+                London | Accra
+                <br><br>
+                T
+                <a
+                  href="tel:+44(0)7552494741"
+                  class="link-4 dark"
+                >
+                  : +44 (0) 7552 494741
+                </a>
+                <br>
+              </p>
+
+
+              <p class="p fs-20 static dark">
+
+                <a
+                  href="https://wa.link/44rrev"
+                  class="link-4 dark"
+                >
+                  W: +233 (0) 20 909 8272
+                </a>
+
+                <br>
+
+              </p>
+
+
+              <div class="div-block-17">
+
+                <a
+                  href="https://web.facebook.com/limexhoney/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-6 dark w-inline-block"
+                ></a>
+
+                <a
+                  href="https://twitter.com/limexhoney"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-7 dark w-inline-block"
+                ></a>
+
+                <a
+                  href="https://www.instagram.com/limexhoney/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-8 dark w-inline-block"
+                ></a>
+
+                <a
+                  href="https://www.behance.net/limexhoney"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-101 dark w-inline-block"
+                ></a>
+
+              </div>
+
+
+              <div class="p copyright dark">
+                2020 LIME AND HONEY. All Rights Reserved.
+              </div>
+
+            </div>
+
+
+            <div class="div-block-24">
+
+              <div class="div-block-18">
+
+                <a
+                  href="/services"
+                  class="p link block footer-link no-tp dark"
+                >
+                  skillset
+                </a>
+
+                <a
+                  href="/projects"
+                  aria-current="page"
+                  class="p link block footer-link fs-20 dark w--current"
+                >
+                  juice
+                </a>
+
+                <a
+                  href="/about"
+                  class="p link block footer-link fs-20 dark"
+                >
+                  honeys
+                </a>
+
+                <a
+                  href="/store"
+                  class="p link block footer-link no-tp dark for--merch"
+                >
+                  store
+                </a>
+
+                <a
+                  href="https://medium.com/lime-honey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p link block footer-link fs-20 dark"
+                >
+                  blog
+                </a>
+
+                <a
+                  href="/contact"
+                  class="p link block footer-link fs-20 dark"
+                >
+                  contact
+                </a>
+
+              </div>
+
+
+              <div class="div-block-20">
+
+                <div class="div-block-21 _2">
+
+                  <p class="p fs-20 subtext dark">
+                    Ready to talk...
+                  </p>
+
+                  <div class="div-block-13">
+
+                    <a
+                      href="/contact"
+                      class="button w-button"
+                    >
+                      let's get crazy
+                    </a>
+
+                    <div class="image-5 dark"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- MOBILE FOOTER -->
+          <div class="footer mobile">
+
+            <div class="div-block-19">
+
+              <p class="p fs-20 dark">
+
+                London | Accra
+
+                <br><br>
+
+                P
+
+                <a
+                  href="tel:+44(0)7552494741"
+                  class="link-4 dark"
+                >
+                  : +44 (0) 7552 494741
+                </a>
+
+                <br>
+
+              </p>
+
+
+              <p class="p fs-20 static dark">
+
+                <a
+                  href="https://wa.link/44rrev"
+                  class="link-4 dark"
+                >
+                  W: +233 (0) 20 909 8272
+                </a>
+
+                <br>
+
+              </p>
+
+
+              <div class="div-block-17">
+
+                <a
+                  href="https://www.facebook.com/limexhoney/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-6 dark w-inline-block"
+                ></a>
+
+                <a
+                  href="https://www.twitter.com/limexhoney"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-7 dark w-inline-block"
+                ></a>
+
+                <a
+                  href="https://www.instagram.com/limexhoney"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-8 dark w-inline-block"
+                ></a>
+
+                <a
+                  href="https://www.behance.net/limexhoney"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="image-101 dark w-inline-block"
+                ></a>
+
+              </div>
+
+            </div>
+
+
+            <div class="div-block-24">
+
+              <div class="div-block-18">
+
+                <a
+                  href="/services"
+                  class="p link block footer-link no-tp dark"
+                >
+                  skillset
+                </a>
+
+                <a
+                  href="/projects"
+                  aria-current="page"
+                  class="p link block footer-link fs-20 dark w--current"
+                >
+                  juice
+                </a>
+
+                <a
+                  href="/about"
+                  class="p link block footer-link fs-20 dark"
+                >
+                  honeys
+                </a>
+
+                <a
+                  href="https://medium.com/lime-honey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p link block footer-link fs-20 dark"
+                >
+                  blog
+                </a>
+
+                <a
+                  href="/contact"
+                  class="p link block footer-link fs-20 dark"
+                >
+                  contact
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="div-block-20 no-t">
+
+              <div class="div-block-21">
+
+                <p class="p fs-20 subtext dark">
+                  If you ready to talk, then...
+                </p>
+
+                <div class="div-block-13">
+
+                  <a
+                    href="/contact"
+                    class="button w-button"
+                  >
+                    let's get crazy
+                  </a>
+
+                  <div class="image-5 dark"></div>
+
+                </div>
+
+
+                <div class="p copyright dark">
+                  2020 LIME AND HONEY. All Rights Reserved.
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PRELOADER -->
+    <div
+      id="preloader-short"
+      data-w-id="6378c6f2-eee0-49cb-23cc-505a97c12191"
+      class="preloader-short"
+    >
+
+      <div
+        data-w-id="6378c6f2-eee0-49cb-23cc-505a97c12193"
+        class="div-block-166"
+      ></div>
+
+    </div>
+
+
+    <!-- WEBFLOW SCRIPT -->
+    <script is:inline src="/scripts/webflow.js"></script>
+
+
+    <!-- PROJECT FILTER + THEME -->
+    <script is:inline>
+      document.addEventListener("DOMContentLoaded", function () {
+
+        /*
+         * ----------------------------------------
+         * THEME
+         * ----------------------------------------
+         */
+
+        let themeMode = localStorage.getItem("themeMode");
+
+        if (themeMode === null) {
+          localStorage.setItem("themeMode", "dark");
+          themeMode = "dark";
+        }
+
+        if (themeMode === "light") {
+          document.querySelectorAll(".dark").forEach((element) => {
+            element.classList.add("light");
+            element.classList.remove("dark");
+          });
+        }
+
+
+        const darkToggle = document.querySelector(".dark-toggle");
+        const lightToggle = document.querySelector(".light-toggle");
+
+
+        darkToggle?.addEventListener("click", function () {
+
+          document.querySelectorAll(".light").forEach((element) => {
+            element.classList.add("dark");
+            element.classList.remove("light");
+          });
+
+          localStorage.setItem("themeMode", "dark");
+
+        });
+
+
+        lightToggle?.addEventListener("click", function () {
+
+          document.querySelectorAll(".dark").forEach((element) => {
+            element.classList.add("light");
+            element.classList.remove("dark");
+          });
+
+          localStorage.setItem("themeMode", "light");
+
+        });
+
+
+        /*
+         * ----------------------------------------
+         * MENU
+         * ----------------------------------------
+         */
+
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton?.addEventListener("click", function () {
+          document.body.classList.toggle("no-scroll");
+        });
+
+
+        /*
+         * ----------------------------------------
+         * PROJECT FILTER
+         * ----------------------------------------
+         */
+
+        const filterLinks =
+          document.querySelectorAll(".link.projects");
+
+        const projectItems =
+          document.querySelectorAll(
+            ".collection-item.w-dyn-item"
+          );
+
+        const emptyState =
+          document.querySelector(".w-dyn-empty");
+
+
+        function filterProjects(filter) {
+
+          let visibleProjects = 0;
+
+
+          projectItems.forEach((item) => {
+
+            const project =
+              item.querySelector(".div-block-50");
+
+            if (!project) return;
+
+
+            const categories =
+              project.getAttribute("data-type") || "";
+
+
+            const matches =
+              filter === "all" ||
+              categories
+                .split(" ")
+                .includes(filter);
+
+
+            if (matches) {
+
+              project.style.display = "flex";
+              project.style.marginTop = "0px";
+              project.style.opacity = "100";
+
+              item.style.display = "block";
+
+              visibleProjects++;
+
+            } else {
+
+              project.style.opacity = "0";
+
+              setTimeout(() => {
+
+                project.style.display = "none";
+                item.style.display = "none";
+
+              }, 300);
+
+            }
+
+          });
+
+
+          /*
+           * EMPTY STATE
+           */
+
+          if (emptyState) {
+
+            emptyState.style.display =
+              visibleProjects === 0
+                ? "block"
+                : "none";
+
+          }
+
+
+          /*
+           * ACTIVE FILTER
+           */
+
+          filterLinks.forEach((link) => {
+            link.classList.remove("active");
+          });
+
+
+          const activeLink =
+            document.querySelector(
+              `.link.projects[data-filter="${filter}"]`
+            );
+
+
+          activeLink?.classList.add("active");
+
+        }
+
+
+        filterLinks.forEach((link) => {
+
+          link.addEventListener("click", function (event) {
+
+            event.preventDefault();
+
+            const filter =
+              this.getAttribute("data-filter");
+
+            filterProjects(filter);
+
+          });
+
+        });
+
+
+        /*
+         * ----------------------------------------
+         * URL FILTER
+         * ----------------------------------------
+         *
+         * Allows:
+         *
+         * /projects?project-type=branding
+         *
+         * ----------------------------------------
+         */
+
+        const params =
+          new URLSearchParams(window.location.search);
+
+        const urlFilter =
+          params.get("project-type");
+
+
+        if (
+          urlFilter &&
+          document.querySelector(
+            `.link.projects[data-filter="${urlFilter}"]`
+          )
+        ) {
+
+          filterProjects(urlFilter);
+
+        }
+
+
+        /*
+         * ----------------------------------------
+         * ORIGINAL WEBFLOW SCROLL BEHAVIOUR
+         * ----------------------------------------
+         */
+
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+        }, 1000);
+
+
+        setTimeout(() => {
+          document.body.classList.remove("no-scroll");
+        }, 2250);
+
+      });
+    </script>
+
+  </body>
+</html>
