@@ -42,6 +42,7 @@ const relatedProjects = projectData.projects
     <link
       href="https://fonts.gstatic.com"
       rel="preconnect"
+      crossorigin="anonymous"
     />
 
     <link
@@ -63,6 +64,25 @@ const relatedProjects = projectData.projects
     <style>
       .no-scroll {
         overflow: hidden;
+      }
+
+      .portfolio-img-wrapper iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: 0;
+        display: block;
+      }
+
+      .portfolio-img-wrapper video {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .portfolio-img-wrapper img {
+        width: 100%;
+        height: auto;
+        display: block;
       }
     </style>
   </head>
@@ -94,6 +114,7 @@ const relatedProjects = projectData.projects
             </a>
 
           </div>
+
         </div>
       </div>
     </div>
@@ -120,7 +141,6 @@ const relatedProjects = projectData.projects
           </div>
 
         </div>
-
 
         <div class="container">
 
@@ -205,14 +225,9 @@ const relatedProjects = projectData.projects
                 {project.description}
               </p>
 
+              <!-- PROJECT CATEGORY -->
               <div class="subtext h6 project-label dark">
-                {project.categories
-                  .map(
-                    (category) =>
-                      category.charAt(0).toUpperCase() +
-                      category.slice(1)
-                  )
-                  .join(", ")}
+                {project.category}
               </div>
 
             </div>
@@ -222,10 +237,14 @@ const relatedProjects = projectData.projects
             <div class="portfolio-img-wrapper">
 
               {
-                project.media.map((media) => {
+                (project.media ?? []).map((media) => {
 
-                  if (media.type === "image" || media.type === "gif") {
+                  /* IMAGE / GIF */
 
+                  if (
+                    media.type === "image" ||
+                    media.type === "gif"
+                  ) {
                     return (
                       <img
                         src={media.src}
@@ -233,11 +252,12 @@ const relatedProjects = projectData.projects
                         loading="lazy"
                       />
                     );
-
                   }
 
-                  if (media.type === "video") {
 
+                  /* SELF-HOSTED VIDEO */
+
+                  if (media.type === "video") {
                     return (
                       <video
                         src={media.src}
@@ -248,22 +268,40 @@ const relatedProjects = projectData.projects
                         controls
                       />
                     );
-
                   }
 
-                  if (media.type === "vimeo") {
 
+                  /* YOUTUBE */
+
+                  if (media.type === "youtube") {
                     return (
                       <iframe
                         src={media.src}
-                        title={project.title}
+                        title={`${project.title} — YouTube video`}
                         frameborder="0"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    );
+                  }
+
+
+                  /* VIMEO */
+
+                  if (media.type === "vimeo") {
+                    return (
+                      <iframe
+                        src={media.src}
+                        title={`${project.title} — Vimeo video`}
+                        frameborder="0"
+                        loading="lazy"
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowfullscreen
                       ></iframe>
                     );
-
                   }
+
 
                   return null;
                 })
@@ -293,6 +331,8 @@ const relatedProjects = projectData.projects
 
           <div class="div-block-53">
 
+            <!-- RELATED PROJECT 1 -->
+
             {
               relatedProjects[0] && (
                 <div class="div-block-54">
@@ -307,13 +347,7 @@ const relatedProjects = projectData.projects
                     </h2>
 
                     <h4 class="heading h4 dark">
-                      {relatedProjects[0].categories
-                        .map(
-                          (category) =>
-                            category.charAt(0).toUpperCase() +
-                            category.slice(1)
-                        )
-                        .join(", ")}
+                      {relatedProjects[0].category}
                     </h4>
 
                     <img
@@ -330,6 +364,7 @@ const relatedProjects = projectData.projects
 
 
             <!-- ALL PROJECTS -->
+
             <a
               href="/projects"
               class="div-block-54 w-inline-block"
@@ -339,6 +374,8 @@ const relatedProjects = projectData.projects
               </p>
             </a>
 
+
+            <!-- RELATED PROJECT 2 -->
 
             {
               relatedProjects[1] && (
@@ -354,13 +391,7 @@ const relatedProjects = projectData.projects
                     </h2>
 
                     <h4 class="heading h4 dark">
-                      {relatedProjects[1].categories
-                        .map(
-                          (category) =>
-                            category.charAt(0).toUpperCase() +
-                            category.slice(1)
-                        )
-                        .join(", ")}
+                      {relatedProjects[1].category}
                     </h4>
 
                     <img
@@ -412,7 +443,6 @@ const relatedProjects = projectData.projects
 
           </div>
 
-
           <div class="div-block-15">
 
             <div class="image-12 dark"></div>
@@ -436,6 +466,8 @@ const relatedProjects = projectData.projects
       <div class="container">
 
         <div class="flex-container no-t">
+
+          <!-- DESKTOP FOOTER -->
 
           <div class="footer desktop">
 
@@ -587,6 +619,7 @@ const relatedProjects = projectData.projects
 
 
           <!-- MOBILE FOOTER -->
+
           <div class="footer mobile">
 
             <div class="div-block-19">
@@ -737,6 +770,7 @@ const relatedProjects = projectData.projects
 
 
     <!-- PRELOADER -->
+
     <div
       id="preloader-short"
       class="preloader-short"
@@ -745,7 +779,12 @@ const relatedProjects = projectData.projects
     </div>
 
 
+    <!-- WEBFLOW SCRIPT -->
+
     <script is:inline src="/scripts/webflow.js"></script>
+
+
+    <!-- THEME + MENU -->
 
     <script is:inline>
       document.addEventListener("DOMContentLoaded", function () {
@@ -774,6 +813,7 @@ const relatedProjects = projectData.projects
             });
 
             localStorage.setItem("themeMode", "dark");
+
           });
 
         document
@@ -786,12 +826,17 @@ const relatedProjects = projectData.projects
             });
 
             localStorage.setItem("themeMode", "light");
+
           });
 
         document
           .querySelector(".menu-button")
-          ?.addEventListener("click", function () {
+          ?.addEventListener("click", function (event) {
+
+            event.preventDefault();
+
             document.body.classList.toggle("no-scroll");
+
           });
 
       });

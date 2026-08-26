@@ -1,9 +1,2078 @@
 {
   "projects": [
     {
+      "slug": "melanin-medics",
+      "title": "Melanin Medics",
+      "category": "Branding",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "Melanin Medics is on a mission to promote diversity in Medicine, widen aspirations, and aid career progression through educational programmes, social empowerment, and valuable resources. They envision a future where diversity in Medicine thrives and every person can fulfill their maximum potential irrespective of their race and socioeconomic background. We developed a welcoming identity system that reflects this mission while projecting professionalism and sophistication. Through collaborative design, we created a multifaceted visual identity that positions Melanin Medics as a leading advocate for diversity and inclusivity in the medical community.",
+      "thumbnail": "/images/project-thumbnails/melanin-medics.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-06.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-07.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-08.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-09.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-10.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-11.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-12.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-13.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-14.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-15.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-16.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-17.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-18.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-19.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-20.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-21.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-22.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-23.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-24.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-25.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-26.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-27.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-28.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-29.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-30.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-31.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-32.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-33.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-34.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-35.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/melaninmedics/Melanin-36.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "ako-adjei-park",
+      "title": "Ako Adjei Park",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "In the heart of Accra, Ako Adjei Park (AAP) isn't just a symbol - it's a living story woven into workspaces, living units, and cultural vibrancy. Our creative journey in forming AAP's brand identity explores the art of typography, fonts, and visuals, echoing the vibrant spirit that defines Accra. AAP goes beyond being a space - it's a shared embrace, a familial movement, a canvas portraying Accra's ongoing tale. We are thrilled to present the outcome of this transformative journey.",
+      "thumbnail": "/images/project-thumbnails/aap.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-13.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-15.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-16.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-17.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/aap/aap-18.png"
+        }
+      ]
+    },
+    {
+      "slug": "uncontained",
+      "title": "Uncontained",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "Uncontained spaces exist to create a revolution in the real estate industry by offering a more efficient, sustainable housing solution that is cost-effective and functional using innovative building technology. To reinforce the idea of giving their clients an unconventional experience rather than just a traditional one, this mark explores a cubic form with an extruding end. The identity was created by the precisely constructed letters U and C, which are accentuated in the name and accompanied by typeface and colors that complement it perfectly",
+      "thumbnail": "/images/project-thumbnails/uncontainedlogo.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/uncontained/uc-10.png"
+        }
+      ]
+    },
+    {
+      "slug": "irrigation-hub",
+      "title": "Irrigation Hub",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "Irrigation Hub entrusted us to redefine its brand identity, and we're thrilled to showcase our collaboration. Our mission was to create a vibrant and reliable brand reflecting innovation in revolutionizing African agriculture through smart irrigation solutions. From a dynamic logo to a carefully curated visual identity across various platforms, our work embodies the essence of Irrigation Hub's commitment.",
+      "thumbnail": "/images/project-thumbnails/irrigationhub.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/irrigationhub/ih-07.png"
+        }
+      ]
+    },
+    {
+      "slug": "afrigirl",
+      "title": "AfriGirl",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "The AfriGirl Conference is a pioneering platform for African girls to learn, connect, and be inspired while working towards building a global community of like-minded, ambitious young women. This was mirrored in the brand’s identity and visual system, which ensured that each of its values was represented in our patterns, typography, and color palette. We’re excited to see what this timeless identity will do next after its hugely successful maiden edition.",
+      "thumbnail": "/images/project-thumbnails/afrigirl.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-13png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-15.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/afrigirl/afg-16.png"
+        }
+      ]
+    },
+    {
+      "slug": "farmmate",
+      "title": "Farmmate",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "A farm partner on a quest to create better producer-to-consumer outcomes through a unified, trusted and sustainable value chain in Africa’s agriculture industry. Our goal was to build an identity that communicated the brand's key values to its partners and consumers while also creating an expressive and welcoming visual language.",
+      "thumbnail": "/images/project-thumbnails/farmmate.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/farmmate/fm-11.png"
+        }
+      ]
+    },
+    {
+      "slug": "glico-healthcare",
+      "title": "Glico Healthcare",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "GLICO HEALTHCARE operates as a private commercial healthcare insurance scheme providing comprehensive medical insurance solutions to corporate organizations and individuals in Ghana. The Company's objective is to offer the generality of the Ghanaian Public competitive and quality healthcare through a network of reputable service providers, including private hospitals and clinics, government hospitals, Mission hospitals, Optical centers, Dental clinics, and Pharmacies. LH was tasked to provide promotional artworks to advertise these services.",
+      "thumbnail": "/images/project-thumbnails/glicohealth.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/glicohealth/gh-09.png"
+        }
+      ]
+    },
+    {
+      "slug": "mpharma-mutti",
+      "title": "mPharma mutti",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "We collaborated with mPharma, a leading pharmaceutical tech company in Africa, to boost their brand awareness. Through strategic digital marketing, including storytelling and compelling visuals, we positioned mPharma as an industry leader, emphasizing affordability, accessibility, and availability. Remarkable results and a strong brand community ensued.",
+      "thumbnail": "/images/project-thumbnails/mutti.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-06.png"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/KfYmadC3gyo"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/mutti/mutti-10.png"
+        }
+      ]
+    },
+    {
+      "slug": "viu-health",
+      "title": "Viu Health",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "ViuHealth (formerly Drugviu) is a virtual autoimmune care app that combines clinical expertise and data science to help people living with autoimmune diseases better manage their condition. Our approach to this rebrand centered on an immersive exploration of client's vision and values, leading to a bold and authentic expression of their brand. From typography to color palette, every detail was carefully considered to reflect their unique personality. It was a true collaboration and we're trilled to showcase the outcome.",
+      "thumbnail": "/images/project-thumbnails/viuhealth.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-06.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-07.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-08.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-09.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-10.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-11.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-12.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-13.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-14.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-15.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-16.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-17.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-18.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-19.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-20.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-21.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-22.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-23.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-24.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-25.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-26.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-27.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-28.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-29.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-30.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-31.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-32.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-33.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/viuhealth/vh-34.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "win-a-heart",
+      "title": "Win a Heart",
+      "category": "Animation",
+      "tags": [
+        "animation"
+      ],
+      "description": "In our mission to develop a creative Valentine's Day campaign, we devised an interactive love story ‘Win A Heart’ for our social media (Instagram) that required the audience to get involved and help conclude the story. The interaction was also gamified in order to encourage participation and engagement. The end result of the day was fantastic. Intensifying our page visits, impressions, and profile engagement. See case study below:",
+      "thumbnail": "/images/project-thumbnails/winaheart.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-13.png"
+        },
+        {
+          "type": "vimeo",
+          "src": "https://player.vimeo.com/video/807880084"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/winaheart/wh-14.png"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/winaheart/wh-15.gif"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/winaheart/wh-16.gif"
+        }
+      ]
+    },
+    {
+      "slug": "cf-brand-guide",
+      "title": "CF Brand Guide",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "Complete Farmer is a Ghanaian agritech company that is redefining the agricultural industry in order to secure a future for farming and solve food systems. The challenge was to help restructure their four main pillars/value chain (DigiFarmer, Freeholder, Grower, and Buyer) and create a unified visual identity. This resulted in the development of a strategy document, rebranding, animations (explainer videos), and the creation of brand assets for social media." ,  
+
+      "thumbnail": "/images/project-thumbnails/cf.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-13.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-15.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-16.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-17.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-18.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-19.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-20.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-21.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-22.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-23.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-24.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-25.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-26.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-27.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-28.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-29.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-30.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-31.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-32.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-33.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-34.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-35.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-36.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-37.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-38.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-39.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-40.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-41.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-42.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-43.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-44.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-45.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-46.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-47.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-48.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-49.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-50.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-51.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/cfguide/cf-52.png"
+        }
+      ]
+    },
+    {
+      "slug": "pigeon-ultra",
+      "title": "Pigeon Ultra",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "After a complete brand audit analysis of PigeonUltra, we came up with workable solutions for their brand problems. It was our aim to improve brand consistency, build affinity and amplify their story.This lead us to build content strategies and visuals that aligned with their market plan. ",
+      "thumbnail": "/images/project-thumbnails/pigeonultra.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/pigeonultra/pu-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/pigeonultra/pu-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/pigeonultra/pu-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/pigeonultra/pu-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/pigeonultra/pu-05.png"
+        }
+        
+      ]
+    },
+    {
+      "slug": "complete-farmer",
+      "title": "Complete Farmer",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "Complete farmer is an agritech company in Ghana that is redefining the agricultural industry to secure a future for farming and solving for food systems. We had the pleasure of working with CF to help structure their brand story in a way that would make it easy for them to communicate to the various stakeholders. This was followed by a full brand refresh that would better express this story and help bring all their various products together effortlessly. We had so much fun working on this and we hope you enjoy going through it as well.",
+      "thumbnail": "/images/project-thumbnails/completefarmer.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-13.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-15.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-16.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-17.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-18.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-19.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-20.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-21.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/completefarmer/cff-22.png"
+        }
+        
+      ]
+    },
+    {
+      "slug": "otfw",
+      "title": "OTFW",
+      "category": "Brand Identity",
+      "tags": [
+        "branding"
+      ],
+      "description": "‘Of The First Water’ is a streetwear brand birthed in Accra, Ghana. The brand strives for excellence in creative work that aims to bring to life the everyday influences and perspectives of the Ghanaian youth. OTFW is a conduit for the projection of local experiences through endeavors in fashion and collaborations in creative work. Our aim was to build a solid & versatile visual identity that helps project the image and position of the brand & shape the perception as well in the minds of the audience. We built a system that is consistent across all the brand touchpoints and flexible at the same time to allow for growth, fluidity, & adaptation as time goes on.",
+      "thumbnail": "/images/project-thumbnails/otfw.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/otfw/otfw-11.png"
+        }
+      ]
+    },
+    {
+      "slug": "mooove-africa",
+      "title": "MoOove Africa",
+      "category": "Brand Identity",
+      "tags": [
+        "branding"
+      ],
+      "description": "We love a brand identity that MoOoVeS! Mooove Africa’ is not just a travel experience agency, it is a community, a family, and most of all, a movement! The challenge for this project was to create an identity that speaks to an adventurous, fun loving and creative audience who seek out amazing experiences, especially within the African Region. It's been a success so far! ",
+      "thumbnail": "/images/project-thumbnails/moove.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/moove/moo-08.png"
+        }
+      ]
+    },
+    {
+      "slug": "proxy",
+      "title": "Proxy",
+      "category": "Brand Identity",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "At the beginning of the year, we promised one lucky start-up a chance to win GHS10K worth of branding package in our #StartUpWithLH campaign. As promised, we helped Proxy Ghana better define their brand story and strategy. We also crafted a brand new identity to help them reach their business goals. Enjoy the project below.",
+      "thumbnail": "/images/project-thumbnails/proxy.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-13.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-15.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-16.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-17.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-18.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-19.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/proxy/pr-20.png"
+        }
+      ]
+    },
+    {
+      "slug": "future-food-forum",
+      "title": "Future Food Forum",
+      "category": "Brand Identity",
+      "tags": [
+        "branding"
+      ],
+      "description": "The Assignment: To design an identity that embodies creativity and inspires fun ideas with a touch of seriousness. Future Food Forum is a forum that seeks to help fix Ghana’s food system by bringing together stakeholders (both big and small) to design creative solutions for the food value chain in Ghana. Their aim is to shake and move things around for the better. And the identity built communicates and inspires these values.",
+      "thumbnail": "/images/project-thumbnails/banana.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/future-food-forum/ffu-08.png"
+        }
+      ]
+    },
+    {
+      "slug": "vure-identity-design",
+      "title": "Vure",
+      "category": "Brand Identity",
+      "tags": [
+        "branding"
+      ],
+      "description": "Vurè is a natural cosmetic business that deals in Black soap, Shea butter soap, Raw shea butter, perfumed shea butter with green tea, and coconut oil. The brand's main mission is to promote locally made shea butter sourced from female suppliers in the Northern Region of Ghana to the International Market. As an agency, our task was to build a solid and flexible visual identity that will help the image of the brand and also create a trustworthy and reliable perception in the minds of its consumers. As usual, we left no stone unturned. Enjoy!",
+      "thumbnail": "/images/project-thumbnails/vure.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/vure/vu-13.png"
+        }
+      ]
+    },
+    {
+      "slug": "swami-india-ghana",
+      "title": "Swami India Ghana",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "It was an exciting journey working with Swami India Ghana. Swami is a real estate company providing affordable housing for all. From luxury 1&2 bedroom apartments to 3&4 bedroom houses. LH was tasked to handle Swami's digital marketing. From captivating newsletters, blog posts, SEO & SEM & social media marketing. Enjoy our case study below!",
+      "thumbnail": "/images/project-thumbnails/swamiindia.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-06.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-07.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-08.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-09.jpg"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/sVIKDTnnn5c"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-10.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-11.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-12.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-13.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/swami/sw-15.png"
+        }
+      ]
+    },
+    {
+      "slug": "fides",
+      "title": "Fides",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "The Fides Group is a multi-disciplined company providing Facility Management, Property Services & Security Services. Fides is the best choice in facility management and property services in modern Ghana, leading the way through innovation and undiluted expertise. Our task on this project was to help the brand increase brand awareness online and build affinity.",
+      "thumbnail": "/images/project-thumbnails/fides.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/fides/fd-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/fides/fd-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/fides/fd-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/fides/fd-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/fides/fd-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/fides/fd-07.png"
+        }
+      ]
+    },
+    {
+      "slug": "dex-4-0-live",
+      "title": "dEX 4.0 Live",
+      "category": "Branding",
+      "tags": [
+        "branding",
+        "animation",
+        "strategy"
+      ],
+      "description": "dEX Artmosphere is the largest design conference in Ghana. It happens once every year and in 2020, we decided to take the show online. Here's a quick reel of some of the interesting graphics we worked on and how the event looked like. ",
+      "thumbnail": "/images/project-thumbnails/dex4.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/dex4/dex-01.png"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/I3Y1jW5xkOM"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dex4/dex-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dex4/dex-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dex4/dex-04.png"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/dex4/dex-05.gif"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/dex4/dex-06.gif"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/dex4/dex-07.gif"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/dex4/dex-08.gif"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/dex4/dex-09.gif"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dex4/dex-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dex4/dex-11.png"
+        }
+      ]
+    },
+    {
+      "slug": "lemonies",
+      "title": "Lemonies",
+      "category": "Animation",
+      "tags": [
+        "animation",
+        "digital"
+      ],
+      "description": "We all have alter egos and interesting characters hidden within us. What happens if you take that and turn it into something fun for everyone to play with? With this project, we explore making stickers and Instagram filters with our characters at Lime & Honey. Head over to our Instagram to check out the filters.",
+      "thumbnail": "/images/project-thumbnails/lemonies.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/lemonies/le-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lemonies/le-02.gif"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lemonies/le-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lemonies/le-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lemonies/le-05.png"
+        }
+      ]
+    },
+    {
+      "slug": "naya-style-guide",
+      "title": "Naya Style Guide",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "",
+      "thumbnail": "/images/project-thumbnails/nayastyle.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-03.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-04.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-07.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-10.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-12.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-13.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-14.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-15.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-16.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-17.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-18.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-19.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-20.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-21.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-22.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-23.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-24.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/naya/naya-25.png"
+        }
+
+      ]
+    },
+    {
+      "slug": "the-lh-story",
+      "title": "The LH Story",
+      "category": "Animation",
+      "tags": [
+        "animation"
+      ],
+      "description": "People were curious about who we are, what our name means, and what we stand for. We made three short videos to answer these questions as best as we could. Enjoy, lol",
+      "thumbnail": "/images/project-thumbnails/lhstory.png",
+      "media": [
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/1mt_zskESG8"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/gaVEizsMYYI"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/IwjCmCq4g00"
+        }
+
+      ]
+    },
+    {
+      "slug": "dear-black-man",
+      "title": "Dear Black Man",
+      "category": "Animation",
+      "tags": [
+        "animation"
+      ],
+      "description": "A short poetic film about self love.",
+      "thumbnail": "/images/project-thumbnails/DBM.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/dbm/dbm-01.jpg"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/wF34fF7WBNw"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dbm/dbm-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/dbm/dbm-03.jpg"
+        }
+
+      ]
+    },
+    {
+      "slug": "pbc",
+      "title": "PBC",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "Digital content creation & art direction work done for the Polo Beach Club, Accra.",
+      "thumbnail": "/images/project-thumbnails/pbc.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/pbc/pbc-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/pbc/pbc-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/pbc/pbc-03.png"
+        }
+
+      ]
+    },
+    {
+      "slug": "starbites",
+      "title": "Starbites",
+      "category": "Digital",
+      "tags": [
+        "digital"
+      ],
+      "description": "Digital content design for Starbites Food & Drink, Ghana.",
+      "thumbnail": "/images/project-thumbnails/starbites.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/starbites/sb-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/starbites/sb-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/starbites/sb-03.png"
+        }
+
+      ]
+    },
+    {
+      "slug": "artmosphere-3-0",
+      "title": "Artmosphere 3.0",
+      "category": "Branding",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "The third event since dEX Ghana started in 2018. With plans of having the biggest event we've had ever, we had some pretty interesting plans & ideas with the whole experience and outlook of the conference. Being a creative event, we had the liberty to go all out & ensure everything dripped with CREATIVITY. Let's dive in! ",
+      "thumbnail": "/images/project-thumbnails/atmospheredex.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-01.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-02.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-05.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-06.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-07.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-08.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-09.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-10.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-11.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-12.jpeg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-13.png"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/atmosphere/ad-14.png"
+        }
+      ]
+    },
+    {
+      "slug": "wellspring",
+      "title": "Wellspring",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "",
+      "thumbnail": "/images/project-thumbnails/wellspring.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/wellspring/ws-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/wellspring/ws-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/wellspring/ws-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/wellspring/ws-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/wellspring/ws-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/wellspring/ws-06.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lucid-wine",
+      "title": "Lucid.Wine",
+      "category": "Animation",
+      "tags": [
+        "animation"
+      ],
+      "description": "",
+      "thumbnail": "/images/project-thumbnails/lucidwine.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/lucid-wine/lw-01.png"
+        },
+        {
+          "type": "vimeo",
+          "src": "https://player.vimeo.com/video/458645900"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid-wine/lw-02.png"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/lucid-wine/lw-03.gif"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/lucid-wine/lw-04.gif"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid-wine/lw-05.png"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/lucid-wine/lw-06.gif"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid-wine/lw-07.png"
+        }
+
+      ]
+    },
+    {
+      "slug": "this-is-accra",
+      "title": "This is Accra",
+      "category": "Branding",
+      "tags": [
+        "branding",
+        "strategy"
+      ],
+      "description": "This is Accra is a creative agency for modern brands in hospitality, travel, & real estate.⁣ We built a distinct identity, coupled with a strong brand story that helped them scale up seamlessly across multiple platforms. Building a faster-growing audience who easily identify with what they stand for.",
+      "thumbnail": "/images/Portfolio-display-copy-4.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/tia/TIA-01-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/tia/TIA-01-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/tia/TIA-01-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/tia/TIA-01-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/tia/TIA-01-05.jpg"
+        }
+      ]
+    },
+    {
       "slug": "braperucci",
       "title": "Braperucci",
-      "categories": [
+      "category": "Brand Identity",
+      "tags": [
         "branding",
         "strategy"
       ],
@@ -31,7 +2100,8 @@
     {
       "slug": "nubian",
       "title": "Nubian",
-      "categories": [
+      "category": "Brand Identity",
+      "tags": [
         "branding",
         "strategy"
       ],
@@ -61,38 +2131,282 @@
         {
           "type": "image",
           "src": "/images/projects/nubian/Nubian-01-06.jpg"
-        }   
+        }
       ]
     },
     {
-      "slug": "this-is-accra",
-      "title": "This is Accra",
-      "categories": [
-        "branding",
-        "strategy"
+      "slug": "countless-smiles",
+      "title": "Countless smiles",
+      "category": "Animation",
+      "tags": [
+        "animation"
       ],
-      "description": "This is Accra is a creative agency for modern brands in hospitality, travel, & real estate.⁣ We built a distinct identity, coupled with a strong brand story that helped them scale up seamlessly across multiple platforms. Building a faster-growing audience who easily identify with what they stand for.",
-      "thumbnail": "/images/Portfolio-display-copy-4.png",
+      "description": "Explaining product concepts and getting people to buy into an idea can be very tricky. This was the situation with CM. Through the use of animation, we came up with a much more relatable & interesting story to better communicate their product.",
+      "thumbnail": "/images/project-thumbnails/CM.png",
       "media": [
         {
           "type": "image",
-          "src": "/images/projects/tia/TIA-01-01.jpg"
+          "src": "/images/projects/countless/cs-01.jpg"
+        },
+        {
+          "type": "youtube",
+          "src": "https://www.youtube.com/embed/nRvaCqpiIyE"
         },
         {
           "type": "image",
-          "src": "/images/projects/tia/TIA-01-02.jpg"
+          "src": "/images/projects/countless/cs-02.jpg"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/countless/cs-03.gif"
         },
         {
           "type": "image",
-          "src": "/images/projects/tia/TIA-01-03.jpg"
+          "src": "/images/projects/countless/cs-04.jpg"
+        },
+        {
+          "type": "gif",
+          "src": "/images/projects/countless/cs-05.gif"
         },
         {
           "type": "image",
-          "src": "/images/projects/tia/TIA-01-04.jpg"
+          "src": "/images/projects/countless/cs-06.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "reel-2019",
+      "title": "Reel 2019",
+      "category": "Animation",
+      "tags": [
+        "animation"
+      ],
+      "description": "Real sweet and colorful! Words we use to describe how 2019 looked like for us in motion.",
+      "thumbnail": "/images/project-thumbnails/reel.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/reel/reel-01.jpg"
         },
         {
           "type": "image",
-          "src": "/images/projects/tia/TIA-01-05.jpg"
+          "src": "/images/projects/reel/reel-02.jpg"
+        },
+        {
+          "type": "vimeo",
+          "src": "https://player.vimeo.com/video/383058109"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/reel/reel-03.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lime-honey",
+      "title": "Lime & Honey",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "A personal brand, of the people, made for the people & by the people. This is one of the most fun projects we’ve worked on because it was an outlet for us to tell everybody about ourselves and our place in the world.",
+      "thumbnail": "/images/project-thumbnails/LH.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/lime-honey/lime-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lime-honey/lime-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lime-honey/lime-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lime-honey/lime-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lime-honey/lime-05.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "nsa",
+      "title": "Nsa",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "We titled their cocktails “liquid magic” on our very first taste test before beginning this project. It inspired us to help give NSA an identity and a personality. Enjoy our creation story below.",
+      "thumbnail": "/images/project-thumbnails/nsa.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/nsa/nsa-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/nsa/nsa-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/nsa/nsa-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/nsa/nsa-04.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "usira-village",
+      "title": "Usria Village",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "It is lovely to work with brands that want to have a real impact on people beyond the products they sell. This is the story of Usira & this project helped define that purpose through their identity.",
+      "thumbnail": "/images/project-thumbnails/usira.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-06.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-07.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-08.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-09.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-10.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-11.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-12.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-13.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-14.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-15.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/usira/usira-16.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "headout-africa",
+      "title": "Headout Africa",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "Headout is an African travel experience agency that is focused on creating & curating unique experiences for travel enthusiasts and people who love to explore. This was a fun identity project made for an African brand that loves to create experiences for people",
+      "thumbnail": "/images/project-thumbnails/HA.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/headout/Headout-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/headout/Headout-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/headout/Headout-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/headout/Headout-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/headout/Headout-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/headout/Headout-06.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lucid",
+      "title": "Lucid",
+      "category": "Branding",
+      "tags": [
+        "branding"
+      ],
+      "description": "Lucid is a brand that helps restaurants supercharge their wine programs while saving them money. Their brand identity lacked unity & consistency across their various brand touchpoints which made it quite tricky to relate with and understand. This is how we helped solve their problem. ",
+      "thumbnail": "/images/project-thumbnails/Lucid.png",
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/projects/lucid/Lucid-01.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid/Lucid-02.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid/Lucid-03.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid/Lucid-04.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid/Lucid-05.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/images/projects/lucid/Lucid-06.jpg"
         }
       ]
     }
