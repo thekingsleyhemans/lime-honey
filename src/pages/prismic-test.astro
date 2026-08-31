@@ -1,0 +1,19 @@
+---
+import { client } from "../lib/prismic";
+
+const response = await client.getAllByType("about");
+---
+
+<html>
+  <head>
+    <title>Prismic Test</title>
+  </head>
+
+  <body>
+    <h1>Prismic Connection Test</h1>
+
+    <p>Repository: LimexHoney</p>
+
+    <p>About documents found: {response.length}</p>
+  </body>
+</html>
