@@ -17,6 +17,7 @@ export function getStaticPaths() {
 }
 
 const { project } = Astro.props;
+const hasMobileImageVariants = ["afrigirl", "viu-health"].includes(project.slug);
 
 const relatedProjects = projectData.projects
   .filter((item) => item.slug !== project.slug)
@@ -246,11 +247,20 @@ const relatedProjects = projectData.projects
                     media.type === "gif"
                   ) {
                     return (
-                      <img
-                        src={media.src}
-                        alt={project.title}
-                        loading="lazy"
-                      />
+                      <picture>
+                        {hasMobileImageVariants && (
+                          <source
+                            media="(max-width: 767px)"
+                            srcset={media.src.replace(/\.(?:png|jpe?g)$/i, "-mobile.webp")}
+                          />
+                        )}
+                        <img
+                          src={media.src}
+                          alt={project.title}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
                     );
                   }
 
