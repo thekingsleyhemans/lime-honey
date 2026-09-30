@@ -3,9 +3,45 @@ import "../styles/normalize.css";
 import "../styles/webflow.css";
 import "../styles/qh-limexhoney-0558b9c78e0aec338a0fcfad4.webflow.css";
 
+import { asHTML, asText } from "@prismicio/helpers";
+import { client } from "../lib/prismic";
 import projectsData from "../data/projects.json";
 
+const homepage = await client.getSingle("homepage");
+const homepageFields = homepage?.data ?? {};
 const projects = projectsData.projects;
+
+const escapeHTML = (value: string): string =>
+  String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+
+const prismicText = (
+  field: Parameters<typeof asText>[0] | string,
+  fallback: string
+): string => {
+  if (typeof field === "string") return field.trim() || fallback;
+  return asText(field)?.trim() || fallback;
+};
+
+const prismicHTML = (
+  field: Parameters<typeof asHTML>[0] | string,
+  fallback: string
+): string => {
+  if (typeof field !== "string" && asText(field)?.trim()) return asHTML(field) ?? "";
+
+  const value = typeof field === "string" ? field.trim() || fallback : fallback;
+  return `<p>${escapeHTML(value).replace(/\r?\n/g, "<br />")}</p>`;
+};
+
+const prismicURL = (
+  field: string | { url?: string } | null | undefined,
+  fallback: string
+): string =>
+  (typeof field === "string" ? field : field?.url) || fallback;
 ---
 
 <html
@@ -309,30 +345,45 @@ const projects = projectsData.projects;
               <div class="circle fill dark"></div>
             </div>
             <h1 class="heading heading-2 dark">
-              Story is
-              <span id="change-text" class="heading h1 display">King.</span>
+              {prismicText(homepageFields.hero_title, "Story is")}
+              <span id="change-text" class="heading h1 display">
+                {prismicText(homepageFields.hero_highlight, "King.")}
+              </span>
             </h1>
             <div class="div-block-168">
-              <p class="p _1 desktop dark">
-                The best way to build a connection. How?<br />
-              </p>
+              <div
+                class="p _1 desktop dark"
+                set:html={prismicHTML(
+                  homepageFields.hero_description,
+                  "The best way to build a connection. How?"
+                )}
+              ></div>
               <a
-                href="https://calendly.com/limexhoneyy/30min"
+                href={prismicURL(
+                  homepageFields.hero_cta_link,
+                  "https://calendly.com/limexhoneyy/30min"
+                )}
                 target="_blank"
                 class="link-block _1 _2 w-inline-block"
               >
                 <div class="p link orange dark">
-                  Book a free discovery session
+                  {prismicText(
+                    homepageFields.hero_cta,
+                    "Book a free discovery session"
+                  )}
                 </div>
                 <div class="div-block-7 orange dark"></div>
               </a>
             </div>
           </div>
         </div>
-        <p class="p _1 mobile dark">
-          we believe that story is at the center of everything, the best way to
-          build a connection<br />
-        </p>
+        <div
+          class="p _1 mobile dark"
+          set:html={prismicHTML(
+            homepageFields.hero_description,
+            "we believe that story is at the center of everything, the best way to build a connection"
+          )}
+        ></div>
       </div>
     </div>
     <div class="section-2">
@@ -343,22 +394,45 @@ const projects = projectsData.projects;
               <div class="circle outline orange s-1 dark">
                 <div>
                   <h1 class="h1 h4 display orange dark">
-                    We are <br />Relentless
+                    {prismicText(homepageFields.section_2_title, "We are")}
+                    <br />
+                    {prismicText(
+                      homepageFields.section_2_highlight,
+                      "Relentless"
+                    )}
                   </h1>
                   <div class="p subtext orange tm-1 dark">
-                    &amp; we love challenges
+                    {prismicText(
+                      homepageFields.section_2_subtitle,
+                      "& we love challenges"
+                    )}
                   </div>
                 </div>
               </div>
             </div>
             <div class="div-block-6">
               <div>
-                <p class="p lh-4-5 _w-395 dark">
-                  We break down your scary business ideas into working
-                  solutions.
-                </p>
-                <a href="services.html" class="link-block _1 w-inline-block">
-                  <div class="p link orange dark">see how we help you.</div>
+                <div
+                  class="p lh-4-5 _w-395 dark"
+                  set:html={prismicHTML(
+                    homepageFields.section_2_description,
+                    "We break down your scary business ideas into working solutions."
+                  )}
+                ></div>
+                <a
+                  href={prismicURL(
+                    homepageFields.section_2_cta_link,
+                    "services.html"
+                  )}
+                  class="link-block _1 w-inline-block"
+                >
+                  <div class="p link orange dark">
+                    {prismicText(
+                      homepageFields.section_2_cta ??
+                        homepageFields.section_2_cta_text,
+                      "see how we help you."
+                    )}
+                  </div>
                   <div class="div-block-7 orange dark"></div>
                 </a>
               </div>
@@ -370,8 +444,12 @@ const projects = projectsData.projects;
     <div class="section-3">
   <div class="container">
     <div class="head-sub-block">
-      <h1 class="subtext-h1 dark">Busy as a Bee</h1>
-      <p class="p s2 _2 dark">If truth be told</p>
+      <h1 class="subtext-h1 dark">
+        {prismicText(homepageFields.projects_section_title, "Busy as a Bee")}
+      </h1>
+      <p class="p s2 _2 dark">
+        {prismicText(homepageFields.projects_section_subtitle, "If truth be told")}
+      </p>
     </div>
 
     <div class="flex-container">
@@ -962,8 +1040,15 @@ const projects = projectsData.projects;
     <div class="section-4">
       <div class="container no-over">
         <div class="head-sub-block">
-          <h1 class="subtext-h1 dark">These guys trust us</h1>
-          <p class="p subtext s2 dark">for all the right reasons.</p>
+          <h1 class="subtext-h1 dark">
+            {prismicText(homepageFields.trust_section_title, "These guys trust us")}
+          </h1>
+          <p class="p subtext s2 dark">
+            {prismicText(
+              homepageFields.trust_section_subtitle,
+              "for all the right reasons."
+            )}
+          </p>
         </div>
         <div class="columns t-96">
           <div class="scroll-wrapper">
@@ -978,10 +1063,14 @@ const projects = projectsData.projects;
       <div class="container">
         <div class="flex-container got-story">
           <div class="div-block-14">
-            <h1 class="heading-5 dark">Got a story?</h1>
+            <h1 class="heading-5 dark">
+              {prismicText(homepageFields.story_cta_title, "Got a story?")}
+            </h1>
             <div class="div-block-13">
-              <a href="contact.html" class="button w-button"
-                >let’s get talking</a
+              <a
+                href={prismicURL(homepageFields.story_cta_link, "contact.html")}
+                class="button w-button"
+                >{prismicText(homepageFields.story_cta_button, "let’s get talking")}</a
               >
               <div class="image-5 dark"></div>
             </div>
@@ -995,8 +1084,15 @@ const projects = projectsData.projects;
     <div data-w-id="3a0e1397-a2d1-df27-4514-7d0f90a2bcb5" class="section-6">
       <div class="container">
         <div class="head-sub-block">
-          <h1 class="subtext-h1 dark">Read our mind,</h1>
-          <p class="p subtext s2 dark">our creative thoughts lie here.</p>
+          <h1 class="subtext-h1 dark">
+            {prismicText(homepageFields.journal_section_title, "Read our mind,")}
+          </h1>
+          <p class="p subtext s2 dark">
+            {prismicText(
+              homepageFields.journal_section_subtitle,
+              "our creative thoughts lie here."
+            )}
+          </p>
         </div>
         <div class="flex-container t-69">
           <div
